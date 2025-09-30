@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit";
+    background-color: hsl(0, 20%, 96%);
+    height: 100vh;
+}
+
+main {
+    margin: auto;
+    padding: 16px;
+}
+
+article {
+    margin: 10em 28em;
+    margin-right: 31.5em;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.blog-img img {
+    border-radius: 15px;
+}
+
+.btn {
+    padding: 10px 5px;
+}
+
+.btn button {
+    padding: 4px 16px;
+    border: 1px blueviolet;
+    border-radius: 25px;
+    background: hsla(0, 8%, 95%, 0.979);
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.heading {
+    padding: 10px 4px;
+    padding-top: 8px;
+    color: #333;
+    font-size: 20.5px;
+}
+
+.para {
+    color: hsla(0, 0%, 40%, 0.966);
+    padding: 0 4px 16px 4px;
+    line-height: 1.5;
+}
+
+.author {
+    padding: 10px 4px;
+    color: hsla(0, 0%, 40%, 0.966);
+    font-weight: 500;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+/* ----- Mobile Version ----- */
+
+@media screen and (min-width: 412px) {
+    body {
+        height: 100vh;
+    }
+
+    article {
+        margin: 15rem auto;
+    }
+
+    .blog-img img {
+        width: 345px;
+    }
+
+    .heading {
+        font-size: 19px;
+    }
+
+    .para {
+        font-size: 15px;
+    }
+
+    hr {
+        width: 350px
+    }
+}
+
+
+/* ----- Tablet Version ----- */
+
+@media screen and (min-width: 1024px) {
+    body {
+        height: 100vh;
+    }
+
+    article {
+        margin: 8em 19.2em;
+
+    }
+}
+
+
+/* ----- Desktop Version ----- */
+
+@media screen and (min-width: 1440px) {
+    body {
+        height: 100vh;
+    }
+
+    article {
+        margin: 10em 32.16em;
+    }
+
+    .heading {
+        font-size: 19px;
+    }
+}
